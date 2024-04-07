@@ -49,7 +49,7 @@ def create_particles(num_x, num_y, start_x, start_y, spacing):
             p = Particle(x, y)
             # anchors
             #and (i == 0 or i == num_x - 1 )
-            if i == 0 :
+            if j == 0 :
                 p.fixed = True
             particles.append(p)
     return particles
