@@ -1,3 +1,5 @@
+#main file Run this to see flag
+
 import pygame
 import math
 from Verlet_particles import Particle  
