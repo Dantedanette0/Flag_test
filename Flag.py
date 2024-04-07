@@ -36,7 +36,7 @@ NUM_X = 45
 NUM_Y = 30
 start_x = 100
 start_y=200
-spacing=3
+spacing=5
 
 def create_particles(num_x, num_y, start_x, start_y, spacing):
     particles = []
