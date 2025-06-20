@@ -23,45 +23,15 @@ A real-time cloth and flag simulation using Verlet integration, implemented in P
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+No installation is required—simply download and run the precompiled executable.
 
-### Prerequisites
-
-* Python 3.7 or higher
-* Pygame library
-
-Install Pygame via pip:
-
-```bash
-pip install pygame
-```
-
-### Installation
-
-1. Clone the repository:
+1. Clone or download this repository:
 
    ```bash
+   git clone https://github.com/YourUsername/verlet-system.git
    ```
-
-git clone [https://github.com/YourUsername/verlet-system.git](https://github.com/YourUsername/verlet-system.git)
-cd verlet-system
-
-````
-2. (Optional) Create and activate a virtual environment:
-   ```bash
-python -m venv venv
-source venv/bin/activate   # Linux/macOS
-venv\\Scripts\\activate  # Windows
-````
-
-3. Install dependencies:
-
-   ```bash
-   ```
-
-pip install -r requirements.txt
-
-````
+2. Navigate to the `dist` (or root) folder where the executable is located.
+3. Double‑click `VerletSystem.exe` (on Windows) or run the executable on your OS.
 
 ---
 
@@ -71,7 +41,7 @@ Run the main application:
 
 ```bash
 python main.py
-````
+```
 
 * Use the main menu to start or exit the simulation.
 * Press **W** to toggle wind on/off during the simulation.
@@ -123,7 +93,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 * Based on Verlet integration concepts from "Advanced Character Physics" by Thomas Jakobsen.
 * Inspired by various cloth simulation tutorials and Pygame examples.
-
-
-The dist files contain exe for both flag and cloth.
-they are functionally the same but different anchors.
