@@ -6,18 +6,16 @@ A real-time cloth and flag simulation using Verlet integration, implemented in P
 
 ## Features
 
-* **Verlet Integration** for stable particle motion.
-* **Distance Constraints** to simulate springs between particles.
-* **Cloth/Grid Generation**: Create a grid of particles, with top row fixed to simulate cloth hanging.
-* **Wind Simulation**: Toggleable wind force affecting particles.
-* **Interactive UI**: Main menu, buttons, and text rendering.
-* **Configurable Parameters**: Frame rate, grid size, spacing, integration steps.
+* Verlet Integration for stable particle motion.
+* Distance Constraints to simulate springs between particles.
+* Cloth/Grid Generation: Create a grid of particles, with top row fixed to simulate cloth hanging.
+* Wind Simulation: Toggleable wind force affecting particles.
+* Interactive UI: Main menu, buttons, and text rendering.
+* Configurable Parameters: Frame rate, grid size, spacing, integration steps.
 
 ---
 
 ## Demo
-
-![Simulation Screenshot](path/to/screenshot.png)
 
 ---
 
@@ -87,9 +85,4 @@ Please follow PEP8 style and include descriptive commit messages.
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
 
-## Acknowledgments
-
-* Based on Verlet integration concepts from "Advanced Character Physics" by Thomas Jakobsen.
-* Inspired by various cloth simulation tutorials and Pygame examples.
