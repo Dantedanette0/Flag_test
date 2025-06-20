@@ -35,7 +35,7 @@ No installation is required—simply download and run the precompiled executable
    git clone https://github.com/YourUsername/verlet-system.git
    ```
 2. Navigate to the `dist` (or root) folder where the executable is located.
-3. Double‑click `VerletSystem.exe` (on Windows) or run the executable on your OS.
+3. Double‑click `cloth.exe` (on Windows) or run the executable on your OS.
 
 ---
 
