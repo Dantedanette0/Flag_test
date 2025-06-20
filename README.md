@@ -17,6 +17,12 @@ A real-time cloth and flag simulation using Verlet integration, implemented in P
 
 ## Demo
 
+#main menu
+![Simulation main menu](demo/main_menu.png)
+
+#Demo
+![Simulation Demo](demo/demo.gif)
+
 ---
 
 ## Getting Started
