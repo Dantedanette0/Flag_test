@@ -1,2 +1,129 @@
+**Verlet Particle System Simulation**
+
+A real-time cloth and flag simulation using Verlet integration, implemented in Python with Pygame. The system models particles connected by distance constraints, supports user interaction, and includes wind effects to animate the cloth dynamically.
+
+---
+
+## Features
+
+* **Verlet Integration** for stable particle motion.
+* **Distance Constraints** to simulate springs between particles.
+* **Cloth/Grid Generation**: Create a grid of particles, with top row fixed to simulate cloth hanging.
+* **Wind Simulation**: Toggleable wind force affecting particles.
+* **Interactive UI**: Main menu, buttons, and text rendering.
+* **Configurable Parameters**: Frame rate, grid size, spacing, integration steps.
+
+---
+
+## Demo
+
+![Simulation Screenshot](path/to/screenshot.png)
+
+---
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+* Python 3.7 or higher
+* Pygame library
+
+Install Pygame via pip:
+
+```bash
+pip install pygame
+```
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   ```
+
+git clone [https://github.com/YourUsername/verlet-system.git](https://github.com/YourUsername/verlet-system.git)
+cd verlet-system
+
+````
+2. (Optional) Create and activate a virtual environment:
+   ```bash
+python -m venv venv
+source venv/bin/activate   # Linux/macOS
+venv\\Scripts\\activate  # Windows
+````
+
+3. Install dependencies:
+
+   ```bash
+   ```
+
+pip install -r requirements.txt
+
+````
+
+---
+
+## Usage
+
+Run the main application:
+
+```bash
+python main.py
+````
+
+* Use the main menu to start or exit the simulation.
+* Press **W** to toggle wind on/off during the simulation.
+* Click and drag particles to interact with the cloth.
+
+---
+
+## Controls
+
+| Key / Mouse           | Action                               |
+| --------------------- | ------------------------------------ |
+| **W**                 | Toggle wind simulation               |
+| **Left Mouse Button** | Select and drag individual particles |
+| **ESC**               | Exit simulation or back to main menu |
+
+---
+
+## Configuration
+
+Inside `main.py`, you can adjust:
+
+* `FPS`: Simulation frame rate (default 200).
+* `NUM_X`, `NUM_Y`: Grid dimensions for cloth particles.
+* `spacing`: Particle spacing in pixels.
+* `NUM_ITER`: Constraint solver iterations per frame.
+* `delta_t`: Time step for Verlet integration.
+
+---
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/NewFeature`)
+3. Commit your changes (`git commit -m 'Add NewFeature'`)
+4. Push to the branch (`git push origin feature/NewFeature`)
+5. Open a Pull Request
+
+Please follow PEP8 style and include descriptive commit messages.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## Acknowledgments
+
+* Based on Verlet integration concepts from "Advanced Character Physics" by Thomas Jakobsen.
+* Inspired by various cloth simulation tutorials and Pygame examples.
+
+
 The dist files contain exe for both flag and cloth.
 they are functionally the same but different anchors.
